@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+  
+}
+
+
+header{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5%;
+  background-color: coral;
+  color: black;
+
+}
+
+.e{
+  color: gold
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 350px;
+  }
+
+  .about{
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    margin: 5%;
+  }
+
+  .aboot{
+    display: flex;
+    font-size: 300%;
+    align-self: center;
+  }
+
+  .contact{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    margin: 5%;
+  }
+
+  .spaceleft{
+    margin-left: 10%;
+  }
