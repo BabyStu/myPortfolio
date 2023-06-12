@@ -5,23 +5,26 @@
     font-family: sans-serif;
 }
 
-body{
-  
+:root{
+  --gold: #7f6739;
+  --white: whitesmoke;
+  --green: #1c3331;
+  --text: rgb(207, 210, 200);
 }
 
+body{
+  background-color: var(--green);
+  color: var(--white)
+}
 
 header{
-    display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5%;
-  background-color: coral;
-  color: black;
-
-}
-
-.e{
-  color: gold
+  background-color: var(--gold);
+  color: var(--white);
+  margin: .5%;
 }
 
 nav ul {
@@ -30,28 +33,74 @@ nav ul {
     min-width: 350px;
   }
 
-  .about{
-    background-color: coral;
-    display: flex;
-    justify-content: space-between;
-    padding: 3%;
-    margin: 5%;
+  nav ul li a{
+    color: var(--white)
   }
 
-  .aboot{
+
+  .headers {
+    background-color: var(--gold);
     display: flex;
-    font-size: 300%;
+    padding: 3%;
+    margin: 5%;
+    align-items: flex-start;
+  }
+  
+  .headers div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-between;
+    border-left: 5px solid var(--green);
+    padding: 3%;
+    gap: 5px;
+  }
+  
+  .projects a {
+   border: none;
+  }
+
+img{
+  display: block;
+  max-width: 100%;
+  border: var(--green) solid;
+}
+
+  .headers ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .headers li{
+    list-style: none;
+    margin-right: 150px;
+    align-items: center;
+  }
+ 
+  h2 {
+    display: flex;
+    font-size: 200%;
     align-self: center;
   }
 
-  .contact{
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    padding: 5%;
-    margin: 5%;
+  .projects a:first-of-type {
+    flex-basis: 100%;
   }
 
-  .spaceleft{
-    margin-left: 10%;
+  a:hover{
+    color:var(--green)
+  }
+
+  .textColor{
+    color: var(--text)
+  }
+  
+  article{
+  display: block;
+  padding: .5%;
+  margin-bottom: .1%;
   }
