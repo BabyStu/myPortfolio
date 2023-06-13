@@ -104,3 +104,13 @@ img{
   padding: .5%;
   margin-bottom: .1%;
   }
+
+  .prof {
+    border-radius: 50%;
+  }
+
+  footer{
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 3%;
+  }
